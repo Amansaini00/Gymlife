@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<style>
+     body{
+            background-color: black;
+        }
+        .navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+.fixed-top{
+    position: absolute;
+}
+.social1{
+    display: flex;
+    margin-top: -16px;
+}
+.sociallogo1{
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.anclogo1{
+    color: white;
+}
+.anclogo1:hover{
+    color:#f36100;
+}
+.navbar{
+margin-left: -250px;
+    margin-top: 30px;
+}
+.intro{
+    height: 500px;
+}
+.introhead{
+    margin-left: 623px;
+    padding-top: 230px;
+}
+.introhead1{
+    margin-left: 655px;
+    display: flex;
+}
+.inth1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+.ancint{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.ancint1{
+    font-size: 20px;
+    color:#f36100;
+}
+
+.seventh{
+    background-color: #0a0a0a;
+    height: 180px;
+    width: 1511px;
+    
+}
+.sh{
+    display: flex;
+    margin-right: 120px;
+    margin-left: 137px;
+    justify-content: space-evenly;
+}
+.sev1{
+    display: flex;
+    margin-top: 50px;
+}
+.s1{
+    border: 2px solid;
+    width: 75px;
+    height: 71px;
+  background-color: #f36100;
+    border-radius: 74px;
+}
+.s2{
+    color: white;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.fa{
+    margin-left: 28px;
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: black;
+    color: grey;
+}
+.footcontent{
+    margin-left: 180px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    line-height: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid 2px grey;
+}
+.social{
+    display: flex;
+    margin-left: -26px;
+}
+.anclogo{
+    color: grey;
+}
+.footer1{
+    width: 360px;
+}
+.fl1{
+    margin-top: 25px;
+}
+.footer2{
+    width: 200px;
+}
+.footer3{
+    width: 200px;
+}
+.footer4{
+    width: 393px;
+}
+.shead{
+    font-size: 24px;
+    font-weight: 700px;
+    color: white;
+}
+.holderhold{
+    display: flex;
+}
+.holder{
+    margin-top: 25px;
+}
+.holder span{
+    
+    font-weight: 700;
+    font-size: 15px;
+    color: darkgrey;
+}
+.holder1{
+    margin-top:20px;
+    border-top: 2px solid grey;
+    padding-top: 5px;
+}
+.holder1 span{
+    
+    font-weight: 700;
+    font-size: 15px;
+    color: darkgrey;
+}
+.ulist{
+    list-style: none;
+    color: grey;
+    margin-top: 25px;
+}
+.list11{
+    margin-left: -35px;;
+}
+.hh2{
+    margin-left: 17px;
+}
+.footerbase{
+    display: flex;
+    margin-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 532px;
+}
+.aman{
+    color: #f36100;
+}
+.footerb2{
+    margin-left: 10px;
+}
+
+
+.fifth{
+            background-color: #151515;
+            height: 835px;
+    width: 1521px;
+    margin-left: -10px;
+        }
+        .fifthhead{
+            margin-left: 600px;
+            padding-top: 55px;
+        }
+        .fh1{
+            color: orangered;
+        }
+        .fh2{
+            color: white;
+            margin-left: -104px;
+        }
+        .fifthbody{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+        .fif1{
+            text-align: center;
+            border: 1px gainsboro solid;
+            height: 550px;
+    width: 350px;
+    transform: skewY(4deg);
+        }
+        .fc{
+            transform: skewY(-4deg);
+            margin-top: 20px;
+        }
+        .f1{
+            color: white;
+    font-size: 26px;
+        }
+        .f2{
+            color: orangered;
+    font-size: 70px;
+    font-weight: bold;
+        }
+        .f3{
+            color: grey;
+    font-size: 19px;
+    margin-top: -26px;
+        }
+    .list{
+        list-style: none;
+    }
+    .list1{
+        font-size: 20px;
+    line-height: 30px;
+    color: grey;
+    margin-left: -35px;
+    margin-top: 45px;
+    }
+    .fb{
+        width: 295px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    }
+    .fb:hover{
+        background-color: #f36100;
+    }
+#fb1{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.fif1:hover{
+    background-color: white;
+}
+
+.fourth{
+        margin-left: -10px;
+        height: 550px;
+        width: 1521px;
+        }
+        .image{
+            height: 550px;
+        width: 1521px;
+        }
+        .front{
+            margin-top: -405px;
+    margin-left: 314px;
+        }
+        .appoint{
+            background: transparent;
+    border: 2px solid #f36100;
+    margin-left: 692px;
+    width: 195px;
+    height: 52px;
+        }
+        .appoint:hover{
+            background-color: #f36100;
+        }
+        #appoint1{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        #fone{
+            font-size: 44px;
+            color: white;
+        }
+        #ftwo{
+            margin-left: 180px;
+            color: grey;
+        }
+        .limit{
+            background-color: #151515;
+            height: 900px;
+        }
+     .limitbody{
+        margin-top: 80px;
+        margin-left:153px;
+     }
+     .limitbody1{
+        display: flex;
+     }
+     .limitbody2{
+        display: flex;
+     }
+     .lb1{
+        height: 293px;
+        width: 293px;
+     }
+     .lb2{
+        display: grid;
+        height: 293px;
+        width: 293px;
+        background-color: #252525;
+        padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+     }
+     .lx1{
+        font-size: 20px;
+    font-weight: 700;
+    height: 36px;
+    color: white;
+     }
+     .lx2{
+        font-size: 14px;
+        color: grey;
+        margin-top: -15px;
+    line-height: 23px;
+     }
+     .lb2:hover{
+        background-color:#323030;
+     }
+     .lb2:hover small{
+        color:#f36100
+     }
+     .lx3{
+        font-size: 16px;
+        font-weight: 600;
+        height: 36px;
+        color: white;
+     }
+</style>
+</head>
+<body>
+    <div class="intro" style="background-image: url(https://preview.colorlib.com/theme/gymlife/img/breadcrumb-bg.jpg.webp);">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="https://preview.colorlib.com/theme/gymlife/img/logo.png" alt=""></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourteam.html">our Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#" id="ax1">About us</a>
+                                <a class="dropdown-item" href="#" id="ax1">Class Timetable</a>
+                                <a class="dropdown-item" href="#" id="ax1">Bmi Calculate</a>
+                                <a class="dropdown-item" href="#" id="ax1">Our Team</a>
+                                <a class="dropdown-item" href="#" id="ax1">Gallery</a>
+                                <a class="dropdown-item" href="#" id="ax1">Our Blog</a>
+                                <a class="dropdown-item" href="#" id="ax1">404</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social1">
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-facebook"></i></a></div>
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-instagram"></i></a></div>
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-youtube"></i></a></div>
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-twitter"></i></a></div>
+                </div>
+        
+            </div>
+        </nav>
+        <div class="introhead">
+            <h1 class="inth1">SERVICES</h1>
+        </div>
+        <div class="introhead1">
+           <div> <a href="index.html" class="ancint"><span>HOME></span></a></div>
+           <div><span class="ancint1">SERVICES</span></div>
+        </div>
+    </div>
+
+    <div class="limit">
+        <div class="fifthhead">
+            <h3 class="fh1" id="heading1">WHAT WE DO?</h3>
+            <h1 class="fh2" >PUSH YOUR LIMITS FORWARD</h1>
+        </div>
+        <div class="limitbody">
+            <div class="limitbody1">
+                <div class="lb1"><img src="https://preview.colorlib.com/theme/gymlife/img/services/services-1.jpg" alt="" class="lb11"></div>
+                <div class="lb2">
+                    <span class="lx1">Personal Training</span>
+                    <span class="lx2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, eligendi. Lorem ipsum dolor sit amet.</span>
+                    <small class="lx3">EXPLORE</small>
+                
+                </div>
+                <div class="lb1"><img src="https://preview.colorlib.com/theme/gymlife/img/services/services-2.jpg" alt="" class="lb11"></div>
+                <div class="lb2">
+                    <span class="lx1">Group Fitness Classes</span>
+                    <span class="lx2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, eligendi. Lorem ipsum dolor sit amet.</span>
+                    <small class="lx3">EXPLORE</small></div>
+            </div>
+            <div class="limitbody2">
+                <div class="lb2">
+                    <span class="lx1">Strenght Training</span> 
+                    <span class="lx2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, eligendi. Lorem ipsum dolor sit amet.</span> 
+                    <small class="lx3">EXPLORE</small>
+                </div>
+                <div class="lb1"><img src="https://preview.colorlib.com/theme/gymlife/img/services/services-3.jpg" alt="" class="lb11"></div>
+                <div class="lb2">
+                    <span class="lx1">Body Building</span>
+                    <span class="lx2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, eligendi. Lorem ipsum dolor sit amet.</span>
+                    <small class="lx3">EXPLORE</small></div>
+                    <div class="lb1"><img src="https://preview.colorlib.com/theme/gymlife/img/services/services-4.jpg" alt="" class="lb11"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth">
+        <div class="back"><img src="https://preview.colorlib.com/theme/gymlife/img/banner-bg.jpg.webp" alt="" class="image"></div>
+        <div class="front"><h1 id="fone">REGISTRATION NOW TO GET MORE DEALS</h1>
+            <h2 id="ftwo">WHERE HEALTH, BEAUTY AND FITNESS MEET.</h2>
+        </div>
+        <div><button class="appoint"><a href="" id="appoint1">APPOINTMENT</a></button></div>
+    </div>
+
+    
+    <div class="fifth">
+        <div class="fifthhead">
+            <h3 class="fh1" id="heading1">OUR PLANS</h3>
+            <h1 class="fh2" >CHOOSE YOUR PRICING PLAN</h1>
+        </div>
+        <div class="fifthbody">
+            <div class="fif1">
+                <div class="fc">
+               <div class="f1"><h3 >Class drop-in</h3></div>
+                <div class="f2"><span>$39.0</span></div>
+               <div class="f3"> <span >Single Class</span></div>
+               <div class="list1"> <ul class="list">
+                    <li>Free riding</li>
+                    <li>Unlimited equipments</li>
+                    <li>personal trainer</li>
+                    <li>weight losing classes</li>
+                    <li>month to mouth</li>
+                    <li>no time restrictions</li>
+                </ul>
+            </div>
+             <div class="f4"> <button class="fb"><a href="" id="fb1">Enroll Now</a></button></div>
+            </div>
+        </div>
+            <div class="fif1">
+                <div class="fc">
+                <div class="f1"><h3 >12 month Unlimited</h3></div>
+                 <div class="f2"><span>$99.0</span></div>
+                <div class="f3"> <span >Single Class</span></div>
+                <div class="list1"> <ul class="list">
+                     <li>Free riding</li>
+                     <li>Unlimited equipments</li>
+                     <li>personal trainer</li>
+                     <li>weight losing classes</li>
+                     <li>month to mouth</li>
+                     <li>no time restrictions</li>
+                 </ul>
+             </div>
+              <div class="f4"> <button class="fb"><a href="" id="fb1">Enroll Now</a></button></div>
+            </div> 
+            </div>
+             <div class="fif1">
+                <div class="fc">
+                <div class="f1"><h3 >6 month Unlimited</h3></div>
+                 <div class="f2"><span>$59.0</span></div>
+                <div class="f3"> <span >Single Class</span></div>
+                <div class="list1"> <ul class="list">
+                     <li>Free riding</li>
+                     <li>Unlimited equipments</li>
+                     <li>personal trainer</li>
+                     <li>weight losing classes</li>
+                     <li>month to mouth</li>
+                     <li>no time restrictions</li>
+                 </ul>
+             </div>
+              <div class="f4"> <button class="fb"><a href="" id="fb1">Enroll Now</a></button></div>
+            </div> 
+            </div>
+        </div>
+    </div>
+   
+    <div class="seventh">
+        <div class="sh">        <div class="sev1"><div class="s1"><i class="fa fa-map-marker" style="font-size:35px;color:white;" ></i></div>
+    <div class="s2">333 Middle Winchendon Rd, Rindge,
+        NH 03461</div></div>
+        <div class="sev1"><div class="s1"><i class="fa fa-phone" style="font-size:35px;color:white;" ></i></div>
+    <div class="s2">125-711-811 | 125-668-886</div></div>
+        <div class="sev1"><div class="s1"><i class="fa fa-envelope" style="font-size:35px;color:white;" ></i></div>
+    <div class="s2">Support.gymcenter@gmail.com</div></div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footcontent">
+        <div class="footer1">
+            <div class="logo"><img src="https://preview.colorlib.com/theme/gymlife/img/logo.png" alt=""></div>
+            <div class="fl1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</span></div>
+        <div class="social">
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-facebook"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-instagram"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-youtube"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-twitter"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-envelope"></i></a></div>
+        </div>
+        </div>
+        <div class="footer2"><div ><small class="shead">Usefull Links</small></div>
+        <div class="list11">
+            <ul class="ulist">
+                <li>About</li>
+                <li>Blog</li>
+                <li>Classes</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer3"><div ><small class="shead">Support</small></div>
+        <div class="list11">
+            <ul class="ulist">
+                <li>My Login</li>
+                <li>My Account</li>
+                <li>Subscribe</li>
+                <li>Contact</li>
+            </ul>
+        </div></div>
+        <div class="footer4">
+            <div ><small class="shead">Tips & Guides</small>
+                <div class="holder">
+                    <span>Physical fitness may help prevent depression, anxiety</span>
+                    <div class="holderhold">
+                        <div class="hh1">3 min read</div>
+                        <div class="hh2">20 unread</div>
+                    </div>
+                </div>
+                <div class="holder1">
+                    <span>Fitness: The best exercise to lose belly fat and tone up...</span>
+                    <div class="holderhold">
+                        <div class="hh1">3 min read</div>
+                        <div class="hh2">20 unread</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    </div>
+    <div class="footerbase">
+    <div class="footerb1"><span>Copyright ©2023 All rights reserved</span></div>
+    <div class="footerb2">This template is made by <a href="" class="aman">Aman</a></div>
+    </div>
+    </div>
+    
+</body>
+</html>

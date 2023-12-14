@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<style>
+     body{
+            background-color: black;
+        }
+        .carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 240px;
+    margin-left: 273px;
+}
+.carousel-caption h5 {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 45px;
+	line-height: 1.9;
+    font-weight: bolder;
+}
+#p1{
+    color: #f36100;
+}
+.carousel-caption small {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-brand{
+    margin-left: -250px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+.fixed-top{
+    position: absolute;
+}
+.social1{
+    display: flex;
+    margin-top: 5px;
+}
+.anclogo1{
+    color: white;
+}
+.anclogo1:hover{
+    color:#f36100;
+}
+.navbar{
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+#ax1{
+    font-size: 14px;
+}
+.dropdown-menu{
+    background-color: #333333;
+}
+.dropdown-item {
+  color: white;
+  padding:2px 10px;
+  margin:5px 0px;
+}
+.dropdown-item:hover,
+ .dropdown-item:focus {
+    color:#f36100;
+    background-color: #333333;
+
+}
+.collapse{
+	margin-right: 170px;
+}
+
+
+.second{
+    height: 1500px;
+    background-color: red;
+}
+.sociallogo1{
+    margin-left: 15px;
+}
+.intro{
+    height: 500px;
+}
+.introhead{
+    margin-left: 635px;
+    padding-top: 230px;
+}
+.introhead1{
+    margin-left: 635px;
+    display: flex;
+}
+.inth1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+.ancint{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.ancint1{
+    font-size: 20px;
+    color:#f36100;
+}
+
+
+.seventh{
+    background-color: #0a0a0a;
+    height: 180px;
+    width: 1511px;
+    
+}
+.sh{
+    display: flex;
+    margin-right: 120px;
+    margin-left: 137px;
+    justify-content: space-evenly;
+}
+.sev1{
+    display: flex;
+    margin-top: 50px;
+}
+.s1{
+    border: 2px solid;
+    width: 75px;
+    height: 71px;
+  background-color: #f36100;
+    border-radius: 74px;
+}
+.s2{
+    color: white;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.fa{
+    margin-left: 24px;
+    margin-top: 17px;
+}
+
+.footer{
+    background-color: black;
+    color: grey;
+}
+.footcontent{
+    margin-left: 180px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    line-height: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid 2px grey;
+}
+.social{
+    display: flex;
+    margin-left: -26px;
+}
+.anclogo{
+    color: grey;
+}
+.footer1{
+    width: 360px;
+}
+.fl1{
+    margin-top: 25px;
+}
+.footer2{
+    width: 200px;
+}
+.footer3{
+    width: 200px;
+}
+.footer4{
+    width: 393px;
+}
+.shead{
+    font-size: 24px;
+    font-weight: 700px;
+    color: white;
+}
+.holderhold{
+    display: flex;
+}
+.holder{
+    margin-top: 25px;
+}
+.holder span{
+    
+    font-weight: 700;
+    font-size: 15px;
+    color: darkgrey;
+}
+.holder1{
+    margin-top:20px;
+    border-top: 2px solid grey;
+    padding-top: 5px;
+}
+.holder1 span{
+    
+    font-weight: 700;
+    font-size: 15px;
+    color: darkgrey;
+}
+.ulist{
+    list-style: none;
+    color: grey;
+    margin-top: 25px;
+}
+.list11{
+    margin-left: -35px;;
+}
+.hh2{
+    margin-left: 17px;
+}
+.footerbase{
+    display: flex;
+    margin-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 532px;
+}
+.aman{
+    color: #f36100;
+}
+.footerb2{
+    margin-left: 10px;
+}
+
+.seventh1{
+    background-color: #0a0a0a;
+}
+.sh1{
+    display: grid;
+    padding-top: 70px;
+
+}
+.contform{
+    background-color: #0a0a0a;
+    height: 990px;
+    width: 1511px;
+    
+}
+.contform1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contform2{
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 50px;
+}
+.contform1r{
+    display: grid;
+    padding-top: 70px;
+}
+.input1{
+    height: 50px;
+    width: 410px;
+    background-color: transparent;
+    border-color: #f36100;
+}
+.input2{
+    height: 120px;
+    width: 410px;
+    background-color: transparent;
+    border-color: #f36100;
+    color: white;
+}
+.input3{
+    height: 50px;
+    width: 410px;
+    background-color:#f36100;
+}
+.sh1h{
+    font-size: 23px;
+    color: #f36100;
+}
+.sh2h{
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+}
+</style>
+</head>
+<body>
+    <div class="intro" style="background-image: url(https://preview.colorlib.com/theme/gymlife/img/breadcrumb-bg.jpg.webp);">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="https://preview.colorlib.com/theme/gymlife/img/logo.png" alt=""></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourteam.html">our Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#" id="ax1">About us</a>
+                                <a class="dropdown-item" href="#" id="ax1">Class Timetable</a>
+                                <a class="dropdown-item" href="#" id="ax1">Bmi Calculate</a>
+                                <a class="dropdown-item" href="#" id="ax1">Our Team</a>
+                                <a class="dropdown-item" href="#" id="ax1">Gallery</a>
+                                <a class="dropdown-item" href="#" id="ax1">Our Blog</a>
+                                <a class="dropdown-item" href="#" id="ax1">404</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-facebook"></i></a></div>
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-instagram"></i></a></div>
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-youtube"></i></a></div>
+                    <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-twitter"></i></a></div>
+                </div>
+        
+            </div>
+        </nav>
+        <div class="introhead">
+            <h1 class="inth1">Contact</h1>
+        </div>
+        <div class="introhead1">
+           <div> <a href="index.html" class="ancint"><span>HOME></span></a></div>
+           <div> <a href="#" class="ancint"><span>PAGES></span></a></div>
+           <div><span class="ancint1">CONTACT</span></div>
+        </div>
+    </div>
+<div class="contform">
+    <div class="contform1">
+        <div class="contform1l"> <div class="seventh1">
+            <div class="sh1">  
+                <div class="shhead">
+                    <div ><span class="sh1h">CONTACT US</span></div>
+                    <div ><span class="sh2h">GET IN TOUCH</span></div>
+                </div>      <div class="sev1"><div class="s1"><i class="fa fa-map-marker" style="font-size:35px;color:white;" ></i></div>
+        <div class="s2">333 Middle Winchendon Rd, Rindge,
+            NH 03461</div></div>
+            <div class="sev1"><div class="s1"><i class="fa fa-phone" style="font-size:35px;color:white;" ></i></div>
+        <div class="s2">125-711-811 | 125-668-886</div></div>
+            <div class="sev1"><div class="s1"><i class="fa fa-envelope" style="font-size:35px;color:white;" ></i></div>
+        <div class="s2">Support.gymcenter@gmail.com</div></div>
+        </div>
+        </div></div>
+        <div class="contform1r">
+            <input type="text" placeholder="NAME" class="input1">
+            <input type="text" placeholder="E-MAIL" class="input1">
+            <input type="text" placeholder="WEBSITE" class="input1">
+            <input type="text" placeholder="COMMENT" class="input2">
+            <a href="" class="input4"> <button class="input3" href="">SUBMIT</button></a>
+        </div>
+    </div>
+    <div class="contform2"><div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=east orange&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections Puzzle</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div></div>
+</div>
+    <div class="seventh">
+        <div class="sh">        <div class="sev1"><div class="s1"><i class="fa fa-map-marker" style="font-size:35px;color:white;" ></i></div>
+    <div class="s2">333 Middle Winchendon Rd, Rindge,
+        NH 03461</div></div>
+        <div class="sev1"><div class="s1"><i class="fa fa-phone" style="font-size:35px;color:white;" ></i></div>
+    <div class="s2">125-711-811 | 125-668-886</div></div>
+        <div class="sev1"><div class="s1"><i class="fa fa-envelope" style="font-size:35px;color:white;" ></i></div>
+    <div class="s2">Support.gymcenter@gmail.com</div></div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footcontent">
+        <div class="footer1">
+            <div class="logo"><img src="https://preview.colorlib.com/theme/gymlife/img/logo.png" alt=""></div>
+            <div class="fl1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</span></div>
+        <div class="social">
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-facebook"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-instagram"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-youtube"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-twitter"></i></a></div>
+            <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-envelope"></i></a></div>
+        </div>
+        </div>
+        <div class="footer2"><div ><small class="shead">Usefull Links</small></div>
+        <div class="list11">
+            <ul class="ulist">
+                <li>About</li>
+                <li>Blog</li>
+                <li>Classes</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer3"><div ><small class="shead">Support</small></div>
+        <div class="list11">
+            <ul class="ulist">
+                <li>My Login</li>
+                <li>My Account</li>
+                <li>Subscribe</li>
+                <li>Contact</li>
+            </ul>
+        </div></div>
+        <div class="footer4">
+            <div ><small class="shead">Tips & Guides</small>
+                <div class="holder">
+                    <span>Physical fitness may help prevent depression, anxiety</span>
+                    <div class="holderhold">
+                        <div class="hh1">3 min read</div>
+                        <div class="hh2">20 unread</div>
+                    </div>
+                </div>
+                <div class="holder1">
+                    <span>Fitness: The best exercise to lose belly fat and tone up...</span>
+                    <div class="holderhold">
+                        <div class="hh1">3 min read</div>
+                        <div class="hh2">20 unread</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    </div>
+    <div class="footerbase">
+    <div class="footerb1"><span>Copyright ©2023 All rights reserved</span></div>
+    <div class="footerb2">This template is made by <a href="" class="aman">Aman</a></div>
+    </div>
+    </div>
+    
+</body>
+</html>

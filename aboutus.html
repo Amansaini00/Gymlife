@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 240px;
+    margin-left: 273px;
+}
+.carousel-caption h5 {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 45px;
+	line-height: 1.9;
+    font-weight: bolder;
+}
+#p1{
+    color: #f36100;
+}
+.carousel-caption small {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-brand{
+    margin-left: -250px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+.fixed-top{
+    position: absolute;
+}
+.social1{
+    display: flex;
+    margin-top: 5px;
+}
+.anclogo1{
+    color: white;
+}
+.anclogo1:hover{
+    color:#f36100;
+}
+.navbar{
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+#ax1{
+    font-size: 14px;
+}
+.dropdown-menu{
+    background-color: #333333;
+}
+.dropdown-item {
+  color: white;
+  padding:2px 10px;
+  margin:5px 0px;
+}
+.dropdown-item:hover,
+ .dropdown-item:focus {
+    color:#f36100;
+    background-color: #333333;
+
+}
+.collapse{
+	margin-right: 300px;
+}
+
+
+.second{
+    height: 1500px;
+    background-color: red;
+}
+.sociallogo1{
+    margin-left: 15px;
+}
+.intro{
+    height: 500px;
+}
+.introhead{
+    margin-left: 623px;
+    padding-top: 230px;
+}
+.introhead1{
+    margin-left: 680px;
+    display: flex;
+}
+.inth1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+.ancint{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.ancint1{
+    font-size: 20px;
+    color:#f36100;
+}
+
+
+.seventh{
+    background-color: #0a0a0a;
+    height: 180px;
+    width: 1511px;
+    
+}
+.sh{
+    display: flex;
+    margin-right: 120px;
+    margin-left: 137px;
+    justify-content: space-evenly;
+}
+.sev1{
+    display: flex;
+    margin-top: 50px;
+}
+.s1{
+    border: 2px solid;
+    width: 75px;
+    height: 71px;
+  background-color: #f36100;
+    border-radius: 74px;
+}
+.s2{
+    color: white;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.fa{
+    margin-left: 28px;
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: black;
+    color: grey;
+}
+.footcontent{
+    margin-left: 180px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    line-height: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid 2px grey;
+}
+.social{
+    display: flex;
+    margin-left: -26px;
+}
+.anclogo{
+    color: grey;
+}
+.footer1{
+    width: 360px;
+}
+.fl1{
+    margin-top: 25px;
+}
+.footer2{
+    width: 200px;
+}
+.footer3{
+    width: 200px;
+}
+.footer4{
+    width: 393px;
+}
+.shead{
+    font-size: 24px;
+    font-weight: 700px;
+    color: white;
+}
+.holderhold{
+    display: flex;
+}
+.holder{
+    margin-top: 25px;
+}
+.holder span{
+    
+    font-weight: 700;
+    font-size: 15px;
+    color: darkgrey;
+}
+.holder1{
+    margin-top:20px;
+    border-top: 2px solid grey;
+    padding-top: 5px;
+}
+.holder1 span{
+    
+    font-weight: 700;
+    font-size: 15px;
+    color: darkgrey;
+}
+.ulist{
+    list-style: none;
+    color: grey;
+    margin-top: 25px;
+}
+.list11{
+    margin-left: -35px;;
+}
+.hh2{
+    margin-left: 17px;
+}
+.footerbase{
+    display: flex;
+    margin-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 532px;
+}
+.aman{
+    color: #f36100;
+}
+.footerb2{
+    margin-left: 10px;
+}
+
+
+.fourth{
+        margin-left: -10px;
+        height: 550px;
+        width: 1521px;
+        }
+        .image{
+            height: 550px;
+        width: 1521px;
+        }
+        .front{
+            margin-top: -405px;
+    margin-left: 314px;
+        }
+        .appoint{
+            background: transparent;
+    border: 2px solid #f36100;
+    margin-left: 692px;
+    width: 195px;
+    height: 52px;
+        }
+        .appoint:hover{
+            background-color: #f36100;
+        }
+        #appoint1{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        #fone{
+            font-size: 44px;
+            color: white;
+        }
+        #ftwo{
+            margin-left: 180px;
+            color: grey;
+        }
+
+        .second{
+    background-color: #0a0a0a;
+        height: 500px;
+        color: white;
+}
+.secondbody{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 180px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+.sb11{
+    background-color: #232323;
+    margin-left: 60px;
+    width: 115px;
+    height: 114px;
+    border-radius: 86px  
+}
+.sb12{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sb13{
+    font-size: 14px;
+}
+#faa{
+    margin-left: 31px;
+    margin-top: 34px;
+}
+#faa1{
+    margin-left: 46px;
+    margin-top: 34px;
+}
+#faa2{
+    margin-left: 37px;
+    margin-top: 34px;
+}
+.s1{
+    border: 2px solid;
+    width: 75px;
+    height: 71px;
+  background-color: #f36100;
+    border-radius: 74px;
+}
+.s2{
+    color: white;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.fa{
+    margin-left: 28px;
+    margin-top: 15px;
+}
+.th1{
+            color: orangered;
+        }
+        .th2{
+            color: white;
+        }
+        .th11{
+            color: orangered;
+        }
+        .th12{
+            color: white;
+        }
+        .thirdhead{
+            margin-left: 600px;
+            padding-top: 55px;
+        }
+
+.three{
+    height: 1024px;
+}
+        
+.sshead{
+    margin-left: 180px;
+    margin-right: 120px;
+    display: flex;
+}
+.ssheadleft{
+    display: grid;
+}
+.ssheadleft small{
+    font-size: 28px;
+    color: #f36100;
+}
+.ssheadleft span{
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+}
+.ssheadright{
+    padding-top: 27px;
+}
+
+
+
+.slide-container {
+            width: 100%;
+            height:85vh;
+            display: flex;
+           /* align-items: center;*/
+            overflow: hidden;
+            margin-top: 55px;
+        }
+
+        .image-slider{
+           width: 100%;
+            height: 600px;
+            position: absolute;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1s;
+        }
+        
+        .slides-div {
+            display: flex;
+           align-items: center;
+            justify-content: center;
+            margin: 0 30px;
+        }
+
+        .img{
+            position: relative;
+            width: 240px;
+            height: 370px;
+            transition: 0.5s;
+        }
+
+        .button {
+            position: absolute;
+            width: 240px;
+            height: 370px;
+            transition: 0.5s;
+        }
+
+        #slider-span1:target ~ .image-slider #img1,
+        #slider-span1:target ~.image-slider #button-1{
+            width:380px;
+            height: 585px;
+            background-color: transparent;
+        }
+        #slider-span2:target ~ .image-slider #img2,
+        #slider-span2:target ~.image-slider #button-2{
+            width:380px;
+            height: 585px;
+            background-color: transparent;
+        }
+        #slider-span3:target ~ .image-slider #img3,
+        #slider-span3:target ~.image-slider #button-3{
+            width:380px;
+            height: 585px;
+            background-color: transparent;
+        }
+        #slider-span4:target ~ .image-slider #img4,
+        #slider-span4:target ~.image-slider #button-4{
+            width:380px;
+            height: 585px;
+            background-color: transparent;
+        }
+        #slider-span5:target ~ .image-slider #img5,
+        #slider-span5:target ~.image-slider #button-5{
+            width:380px;
+            height: 585px;
+            background-color: transparent;
+        }
+        /*#slider-span6:target ~ .image-slider #img6,
+        #slider-span6:target ~.image-slider #button-6{
+            width:380px;
+            height: 585px;
+            background-color: transparent;
+        }*/
+
+
+        #slider-span1:target ~.image-slider{
+            left:30%;
+        }
+        #slider-span2:target ~.image-slider{
+            left:15%;
+        }
+        #slider-span3:target ~.image-slider{
+            left:0%;
+        }
+        #slider-span4:target ~.image-slider{
+            left:-10%;
+        }
+        #slider-span5:target ~.image-slider{
+            left:-20%;
+        }
+       /* #slider-span6:target ~.image-slider{
+            left:-30%;
+        }*/
+        .fifth{
+            background-color: #151515;
+            height: 713px;
+    width: 1521px;
+        }
+        .fifthhead{
+            margin-left: 600px;
+            padding-top: 55px;
+        }
+        .fifthbody{
+            margin-top: 35px;
+        }
+        .heading1{
+            margin-left: 10px;
+        }
+        .fh1{
+            color: orangered;
+            padding-left: 60px;
+        }
+        .fh2{
+            color: white;
+            margin-left: -104px;
+        }
+
+
+/*testinomial slider*/
+    .swiper {
+      width: 55%;
+      height:80%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background:#151515;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+     /* width: 100%;
+      height: 100%;*/
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pk1{
+      width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    }
+    .imgpk{
+      margin-left: 260px;
+      width: 200px;
+      height: 200px;
+    }
+    .span1{
+      width: 720px;
+      color: white;
+      padding: 35px;
+    }
+    .fa{
+      color: yellow;
+    }
+    .videoportion{
+        display: flex;
+        height: 670px;
+        background-color: black;
+    }
+    .imgvp{
+        height: 523px;
+    }
+    .videoportionright{
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+    .vphead{
+        margin-top: 50px;
+    }
+    .vpbody{
+        margin-top:50px;
+    }
+    .vp4{
+        margin-top: 30px;
+    }
+    #vp11{
+        font-size: 23px;
+    }
+    #vp22{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .vploaderhead{
+        display: flex;
+        justify-content: space-between;
+    }
+    .vp33{
+        color: white;
+    }
+    .vpload1{
+        color: white;
+    }
+    .progress-bar{
+        background-color:#232323;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="intro" style="background-image: url(https://preview.colorlib.com/theme/gymlife/img/breadcrumb-bg.jpg.webp);">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="https://preview.colorlib.com/theme/gymlife/img/logo.png" alt=""></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="classes.html">Classes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ourteam.html">our Team</a>
+					</li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#" id="ax1">About us</a>
+                            <a class="dropdown-item" href="#" id="ax1">Class Timetable</a>
+                            <a class="dropdown-item" href="#" id="ax1">Bmi Calculate</a>
+                            <a class="dropdown-item" href="#" id="ax1">Our Team</a>
+                            <a class="dropdown-item" href="#" id="ax1">Gallery</a>
+                            <a class="dropdown-item" href="#" id="ax1">Our Blog</a>
+                            <a class="dropdown-item" href="#" id="ax1">404</a>
+                        </div>
+                    </li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+            <div class="social1">
+                <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-facebook"></i></a></div>
+                <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-instagram"></i></a></div>
+                <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-youtube"></i></a></div>
+                <div class="sociallogo1"><a href="" class="anclogo1"><i class="fa fa-twitter"></i></a></div>
+            </div>
+    
+		</div>
+	</nav>
+    <div class="introhead">
+        <h1 class="inth1">ABOUT US</h1>
+    </div>
+    <div class="introhead1">
+       <div> <a href="index.html" class="ancint"><span>HOME></span></a></div>
+       <div><span class="ancint1">ABOUT</span></div>
+    </div>
+</div>
+<div class="second">
+    <div class="thirdhead">
+        <h3 class="th1" id="heading1">Why Choose Us?</h3>
+        <h1 class="th2" >WHAT WE OFFER</h1>
+    </div>
+    <div class="secondbody">
+        <div class="sb1">
+            <div class="sb11">
+            <i class="fa fa-flash" style="font-size:48px;color:orangered" id="faa1"></i></div>
+            <div class="sb12"><span>Mordern equipments</span></div>
+            <div class="sb13"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</span></div>
+        </div>
+        <div class="sb1">
+            <div class="sb11">
+                <i class="fa fa-flask" style="font-size:48px;color:orangered" id="faa"></i></div>
+            <div class="sb12"><span>Healthy Nutrition Plan</span></div>
+            <div class="sb13"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</span></div>
+        </div>
+        <div class="sb1">
+            <div class="sb11">
+                <i class="fa fa-heartbeat" style="font-size:48px;color:orangered" id="faa"></i></div>
+            <div class="sb12"><span>Professional Training plan</span></div>
+            <div class="sb13"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</span></div>
+        </div>
+        <div class="sb1">
+            <div class="sb11">
+                <i class="fa fa-gift" style="font-size:48px;color:orangered" id="faa2"></i></div>
+            <div class="sb12"><span>Unique to Your Need</span></div>
+            <div class="sb13"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="videoportion">
+    <div class="videoportionleft">
+        <div><img src="https://preview.colorlib.com/theme/gymlife/img/about-us.jpg.webp" alt="" class="imgvp"></div></div>
+
+    <div class="videoportionright">
+        <div class="vphead">
+            <div class="vp1"><span class="th1" id="vp11">ABOUT US</span></div>
+            <div class="vp2"><span class="th2" id="vp22">WHAT WE HAVE DONE</span></div>
+        </div>
+        <div class="vpbody"><div class="vp3"><span class="vp33">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. aliquip ex ea commodo consequat sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></div>
+    <div class="vp4">
+        <div class="vploaderhead">
+            <div class="vpload1"><span>Body Building</span></div>
+            <div class="vpload1"><span>80%</span></div>
+        </div>
+        <div class="vploaderbody">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+        </div>
+    </div>
+    <div class="vp4">
+        <div class="vploaderhead">
+            <div class="vpload1"><span>Training</span></div>
+            <div class="vpload1"><span>75%</span></div>
+        </div>
+        <div class="vploaderbody">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+        </div>
+    </div>
+    <div class="vp4">
+        <div class="vploaderhead">
+            <div class="vpload1"><span>Fitness</span></div>
+            <div class="vpload1"><span>85%</span></div>
+        </div>
+        <div class="vploaderbody">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+        </div>
+    </div>
+    </div>
+
+    </div>
+</div>
+</div>
+<!-- <div class="three">
+    <div class="sshead">
+        <div class="ssheadleft">
+            <small class="z1">OUR TEAM</small>
+            <span class="z2">TRAIN WITH EXPERTS</span>
+        </div>
+        <div class="ssheadright"><button class="appoint"><a href="" id="appoint1">APPOINTMENT</a></button></div>
+    </div>
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-1.jpg.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-2.jpg.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-3.jpg.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-4.jpg.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-5.jpg.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-6.jpg.webp" alt="" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+</div> -->
+<div class="fourth">
+    <div class="back"><img src="https://preview.colorlib.com/theme/gymlife/img/banner-bg.jpg.webp" alt="" class="image"></div>
+    <div class="front"><h1 id="fone">REGISTRATION NOW TO GET MORE DEALS</h1>
+        <h2 id="ftwo">WHERE HEALTH, BEAUTY AND FITNESS MEET.</h2>
+    </div>
+    <div><button class="appoint"><a href="" id="appoint1">APPOINTMENT</a></button></div>
+</div>
+<div class="fifth">
+    <div class="fifthhead"><h3 class="fh1" id="heading1">OUR PLANS</h3>
+        <h1 class="fh2" >CHOOSE YOUR PRICING PLAN</h1></div>
+    <div class="fifthbody">
+        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><div class="imgpk"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-6.jpg.webp" alt="" class="pk1"></div>
+    <div class="span1"><span class="pk2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates cumque beatae, libero et, repellat deserunt fuga vero saepe non dicta debitis, enim facere hic molestias inventore cupiditate. Doloremque, doloribus.</span></div>
+  <div class="heading1"><h1 class="pk3">MARSHMELLOW GOMEZ</h1></div>
+  <div class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>  
+  </div>
+
+      <div class="swiper-slide"><div class="imgpk"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-5.jpg.webp" alt="" class="pk1"></div>
+      <div class="span1"><span class="pk2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates cumque beatae, libero et, repellat deserunt fuga vero saepe non dicta debitis, enim facere hic molestias inventore cupiditate. Doloremque, doloribus.</span></div>
+    <div class="heading1"><h1 class="pk3">MARSHMELLOW GOMEZ</h1></div>
+    <div class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> </div>
+
+      <div class="swiper-slide"><div class="imgpk"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-4.jpg.webp" alt="" class="pk1"></div>
+      <div class="span1"><span class="pk2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates cumque beatae, libero et, repellat deserunt fuga vero saepe non dicta debitis, enim facere hic molestias inventore cupiditate. Doloremque, doloribus.</span></div>
+    <div class="heading1"><h1 class="pk3">MARSHMELLOW GOMEZ</h1></div>
+    <div class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> </div>
+
+      <div class="swiper-slide"><div class="imgpk"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-3.jpg.webp" alt="" class="pk1"></div>
+      <div class="span1"><span class="pk2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates cumque beatae, libero et, repellat deserunt fuga vero saepe non dicta debitis, enim facere hic molestias inventore cupiditate. Doloremque, doloribus.</span></div>
+    <div class="heading1"><h1 class="pk3">MARSHMELLOW GOMEZ</h1></div>
+    <div class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> </div>
+
+      <div class="swiper-slide"><div class="imgpk"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-2.jpg.webp" alt="" class="pk1"></div>
+      <div class="span1"><span class="pk2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates cumque beatae, libero et, repellat deserunt fuga vero saepe non dicta debitis, enim facere hic molestias inventore cupiditate. Doloremque, doloribus.</span></div>
+    <div class="heading1"><h1 class="pk3">MARSHMELLOW GOMEZ</h1></div>
+    <div class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> </div>
+
+      <div class="swiper-slide"><div class="imgpk"><img src="https://preview.colorlib.com/theme/gymlife/img/team/team-1.jpg.webp" alt="" class="pk1"></div>
+      <div class="span1"><span class="pk2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates cumque beatae, libero et, repellat deserunt fuga vero saepe non dicta debitis, enim facere hic molestias inventore cupiditate. Doloremque, doloribus.</span></div>
+    <div class="heading1"><h1 class="pk3">MARSHMELLOW GOMEZ</h1></div>
+    <div class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    </div>
+</div>
+<div class="seventh">
+    <div class="sh">        <div class="sev1"><div class="s1"><i class="fa fa-map-marker" style="font-size:35px;color:white;" ></i></div>
+<div class="s2">333 Middle Winchendon Rd, Rindge,
+    NH 03461</div></div>
+    <div class="sev1"><div class="s1"><i class="fa fa-phone" style="font-size:35px;color:white;" ></i></div>
+<div class="s2">125-711-811 | 125-668-886</div></div>
+    <div class="sev1"><div class="s1"><i class="fa fa-envelope" style="font-size:35px;color:white;" ></i></div>
+<div class="s2">Support.gymcenter@gmail.com</div></div>
+</div>
+</div>
+<div class="footer">
+    <div class="footcontent">
+    <div class="footer1">
+        <div class="logo"><img src="https://preview.colorlib.com/theme/gymlife/img/logo.png" alt=""></div>
+        <div class="fl1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</span></div>
+    <div class="social">
+        <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-facebook"></i></a></div>
+        <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-instagram"></i></a></div>
+        <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-youtube"></i></a></div>
+        <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-twitter"></i></a></div>
+        <div class="sociallogo"><a href="" class="anclogo"><i class="fa fa-envelope"></i></a></div>
+    </div>
+    </div>
+    <div class="footer2"><div ><small class="shead">Usefull Links</small></div>
+    <div class="list11">
+        <ul class="ulist">
+            <li>About</li>
+            <li>Blog</li>
+            <li>Classes</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    </div>
+    <div class="footer3"><div ><small class="shead">Support</small></div>
+    <div class="list11">
+        <ul class="ulist">
+            <li>My Login</li>
+            <li>My Account</li>
+            <li>Subscribe</li>
+            <li>Contact</li>
+        </ul>
+    </div></div>
+    <div class="footer4">
+        <div ><small class="shead">Tips & Guides</small>
+            <div class="holder">
+                <span>Physical fitness may help prevent depression, anxiety</span>
+                <div class="holderhold">
+                    <div class="hh1">3 min read</div>
+                    <div class="hh2">20 unread</div>
+                </div>
+            </div>
+            <div class="holder1">
+                <span>Fitness: The best exercise to lose belly fat and tone up...</span>
+                <div class="holderhold">
+                    <div class="hh1">3 min read</div>
+                    <div class="hh2">20 unread</div>
+                </div>
+            </div>
+    </div>
+</div>
+
+</div>
+<div class="footerbase">
+<div class="footerb1"><span>Copyright ©2023 All rights reserved</span></div>
+<div class="footerb2">This template is made by <a href="" class="aman">Aman</a></div>
+</div>
+</div>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     loop: true,
+     autoplay:{
+        delay:2500
+
+     },
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+ </script> -->
+
+
+  
+
+</body>
+</html>
